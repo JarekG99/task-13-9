@@ -1,0 +1,21 @@
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body style="text-center">
+        <h1>File uploader</h1>
+        <form action="/upload" enctype="multipart/form-data" method="post">
+            <label>File title</label>
+            <input type="text" name="title">
+            <br>
+            <label>File</label>
+            <input type="file" name="upload" multiple="multiple"><br>
+            <input type="submit" value="Send">
+        </form>
+    </body>
+</html>
